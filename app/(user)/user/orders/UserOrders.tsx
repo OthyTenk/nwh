@@ -1,18 +1,17 @@
 "use client";
 
+import { CiReceipt } from "react-icons/ci";
 import {
   HiOutlineCalendarDays,
   HiOutlineChevronLeft,
   HiOutlineClock,
 } from "react-icons/hi2";
-import { CiReceipt } from "react-icons/ci";
 
-import Link from "next/link";
 import { OrderData } from "@/data/order-data";
+import Link from "next/link";
 
-// import UserOnDeliveryModal from "./UserOnDeliveryModal";
-import UserDeliveredModal from "./UserDeliveredModal";
 import Container from "@/app/components/common/Container";
+import UserDeliveredModal from "./UserDeliveredModal";
 import UserOnDeliveryModal from "./UserOnDeliveryModal";
 
 const UserOrders = () => {
